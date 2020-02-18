@@ -32,28 +32,27 @@ header {
     text-align:center;
 }
 
-#nieuwsdiv, #adopteerdiv {
+#nieuwsdiv, #adopteerdiv, #donate {
     width: 20%;
     right: 0;
     position: absolute;
     background-color: #d3d3d3;
     padding: 10px;
-    height: 20%;
+    height: 5%;
 }
 
 #adopteerdiv {
-    top: 90%;
+    top: 55%;
 }
 
-#adopteerdiv:hover, #nieuwsdiv:hover {
+#adopteerdiv:hover, #nieuwsdiv:hover, #donate:hover {
     background-color: #c6c6c6;
     transition: background-color 1s;
-    transition: color 1s;
+    transition: color 0.3s;
     cursor: pointer;
     color: white;
 }
 
 #donate {
-    background-color: #c6c6c6;
-    border-radius: 10px;
+    top: 63%;
 }
