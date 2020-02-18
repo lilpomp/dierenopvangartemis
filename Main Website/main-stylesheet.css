@@ -4,6 +4,7 @@
 
 body {
     background-color: #f9f9f9;
+    height: 100%;
 }
 
 #logo {
@@ -31,10 +32,28 @@ header {
     text-align:center;
 }
 
-#nieuwsdiv {
-    width: 30%;
+#nieuwsdiv, #adopteerdiv {
+    width: 20%;
     right: 0;
     position: absolute;
     background-color: #d3d3d3;
     padding: 10px;
+    height: 20%;
+}
+
+#adopteerdiv {
+    top: 90%;
+}
+
+#adopteerdiv:hover, #nieuwsdiv:hover {
+    background-color: #c6c6c6;
+    transition: background-color 1s;
+    transition: color 1s;
+    cursor: pointer;
+    color: white;
+}
+
+#donate {
+    background-color: #c6c6c6;
+    border-radius: 10px;
 }
