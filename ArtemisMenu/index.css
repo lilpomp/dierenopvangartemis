@@ -28,6 +28,15 @@ ul
     margin-right: 25px;
 }
 
+.title {
+    color: white;
+    font-weight: bold;
+    letter-spacing: 0.2vw;
+    font-size: 1.5vw;
+    padding-right: 35vw;
+    padding-top: 4.5vh;
+}
+
 ul li
 {
     display: inline-block;
@@ -110,6 +119,7 @@ menu
     left: 40vw;
     border: 1px solid black;
     text-align: center;
+    height: 34.8vh;
 }
 #block2, #block1
 {
@@ -141,6 +151,7 @@ menu
     left: 20%;
     z-index: 2;
     color: rgb(90, 34, 180);
+    box-shadow: 0px 3px 0px #333333;
 }
 
 #Over
