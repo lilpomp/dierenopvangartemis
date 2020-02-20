@@ -1,0 +1,67 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: white;
+    width: 99vw;
+    overflow-x: hidden;
+}
+
+ul
+{
+    float: right;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    margin-right: 25px;
+}
+
+ul li
+{
+    display: inline-block;
+}
+
+ul li a
+{
+    text-decoration: none;
+    color: rgb(90, 34, 180);
+    margin: 0;
+    border: 1px solid transparent;
+    display: block;
+    width: 5vw;
+    height: 7.4vh;
+    padding-top: 30px;
+    padding-left: 25px;
+    font-size: 20px;
+}
+
+ul li a:hover
+{
+    background-color: lightgray;
+    color: orange;
+    border-bottom: 6px solid orange;
+}
+
+ul li.active a
+{
+    background-color: lightgray;
+    color: rgb(90, 34, 180);
+}
+
+.logo img
+{
+    float: left;
+    width: 150px;
+    height: 14vh;
+}
+
+menu
+{
+    position: relative;
+    background-color: honeydew;
+    height: 12vh;
+    width: 102vw;
+    right: 2vw;
+}
