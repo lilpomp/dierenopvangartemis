@@ -179,17 +179,17 @@ menu
 }
 
 .dier1{
-    position: relative;
+    position: absolute;
     width: 20%;
     height: 400px;
     border: 2px solid blue;
     border-color: #d3d3d3;
     list-style-type: square;
-    top: 200px;
+    top: 100px;
     
 }
 .dier2{
-    position: relative;
+    position: absolute;
     width: 20%;
     height: 400px;
     border: 2px solid blue;
@@ -197,6 +197,28 @@ menu
     list-style-type: square;
     top: 100px;
     left: 600px;
+    
+}
+.dier3{
+    position: absolute;
+    width: 20%;
+    height: 400px;
+    border: 2px solid blue;
+    border-color: #d3d3d3;
+    list-style-type: square;
+    top: 100px;
+    left: 1200px;
+    
+}
+.dier4{
+    position: absolute;
+    width: 20%;
+    height: 400px;
+    border: 2px solid blue;
+    border-color: #d3d3d3;
+    list-style-type: square;
+    top: 100px;
+    left: 1800px;
     
 }
 .image{
@@ -207,5 +229,6 @@ menu
 }
 
 .content{
-    
+    width: 100vw;
+    height: 100vh;
 }
