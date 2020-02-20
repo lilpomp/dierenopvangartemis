@@ -1,10 +1,14 @@
 * {
     font-family: "Raleway", sans-serif;
+    z-index:1;
 }
 
 body {
     background-color: #f9f9f9;
     height: 100%;
+    width: 100%;
+    margin:0;
+    padding: 0;
 }
 
 #logo {
@@ -55,4 +59,28 @@ header {
 
 #donate {
     top: 63%;
+}
+
+#dogphoto {
+    z-index: 1;
+    position: absolute;
+}
+
+#overons {
+    background-color: #5457A6;
+    padding: 0.5%;
+    top: 35vh;
+    position: absolute;
+    left: 2vw;
+    color: white;
+}
+
+#overonsinfo {
+    background-color: #5457A6;
+    padding: 1%;
+    top:60vh;
+    position: absolute;
+    max-width: 50%;
+    left: 10vw;
+    color: white;
 }
