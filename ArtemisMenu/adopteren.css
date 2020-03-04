@@ -45,6 +45,7 @@ ul li a
     padding-top: 4vh;
     padding-left: 2.5vw;
     font-size: 1vw;
+    font-weight: bold;
 }
 
 ul li a:hover
