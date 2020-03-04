@@ -186,7 +186,7 @@ menu
     border: 2px solid blue;
     border-color: #d3d3d3;
     list-style-type: square;
-    top: 200px;
+    top: 195px;
     left: 500px;
 }
 .dier2{
@@ -196,7 +196,7 @@ menu
     border: 2px solid blue;
     border-color: #d3d3d3;
     list-style-type: square;
-    top: 200px;
+    top: 195px;
     left: 1000px;
     
 }
@@ -233,6 +233,9 @@ menu
     width: 100vw;
     height: 100vh;
 }
-.LIST li{
-    display: block;
+.lista{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
 }
