@@ -185,8 +185,8 @@ menu
     border: 2px solid blue;
     border-color: #d3d3d3;
     list-style-type: square;
-    top: 100px;
-    
+    top: 200px;
+    left: 500px;
 }
 .dier2{
     position: absolute;
@@ -195,8 +195,8 @@ menu
     border: 2px solid blue;
     border-color: #d3d3d3;
     list-style-type: square;
-    top: 100px;
-    left: 400px;
+    top: 200px;
+    left: 1000px;
     
 }
 .dier3{
@@ -206,8 +206,8 @@ menu
     border: 2px solid blue;
     border-color: #d3d3d3;
     list-style-type: square;
-    top: 100px;
-    left: 800px;
+    top: 600px;
+    left: 500px;
     
 }
 .dier4{
@@ -217,8 +217,8 @@ menu
     border: 2px solid blue;
     border-color: #d3d3d3;
     list-style-type: square;
-    top: 100px;
-    left: 1200px;
+    top: 600px;
+    left: 1000px;
     
 }
 .image{
@@ -231,4 +231,7 @@ menu
 .content{
     width: 100vw;
     height: 100vh;
+}
+.LIST li{
+    display: block;
 }
