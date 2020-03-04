@@ -180,24 +180,46 @@ menu
 }
 
 .dier1{
-    position: relative;
-    width: 20%;
-    height: 400px;
-    border: 2px solid blue;
-    border-color: #d3d3d3;
-    list-style-type: square;
-    top: 200px;
-    
-}
-.dier2{
-    position: relative;
+    position: absolute;
     width: 20%;
     height: 400px;
     border: 2px solid blue;
     border-color: #d3d3d3;
     list-style-type: square;
     top: 100px;
-    left: 600px;
+    
+}
+.dier2{
+    position: absolute;
+    width: 20%;
+    height: 400px;
+    border: 2px solid blue;
+    border-color: #d3d3d3;
+    list-style-type: square;
+    top: 100px;
+    left: 400px;
+    
+}
+.dier3{
+    position: absolute;
+    width: 20%;
+    height: 400px;
+    border: 2px solid blue;
+    border-color: #d3d3d3;
+    list-style-type: square;
+    top: 100px;
+    left: 800px;
+    
+}
+.dier4{
+    position: absolute;
+    width: 20%;
+    height: 400px;
+    border: 2px solid blue;
+    border-color: #d3d3d3;
+    list-style-type: square;
+    top: 100px;
+    left: 1200px;
     
 }
 .image{
@@ -205,4 +227,9 @@ menu
     height: 200px;
     margin: auto;
     display: block;
+}
+
+.content{
+    width: 100vw;
+    height: 100vh;
 }
