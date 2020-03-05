@@ -182,44 +182,44 @@ menu
 .dier1{
     position: absolute;
     width: 20%;
-    height: 400px;
-    border: 2px solid blue;
-    border-color: #d3d3d3;
+    height: 350px;
+    border: 2px solid;
+    border-color: #5457A6;
     list-style-type: square;
-    top: 195px;
-    left: 500px;
+    top: 200px;
+    left: 114px;
 }
 .dier2{
     position: absolute;
     width: 20%;
-    height: 400px;
-    border: 2px solid blue;
-    border-color: #d3d3d3;
+    height: 350px;
+    border: 2px solid;
+    border-color: #5457A6;
     list-style-type: square;
-    top: 195px;
-    left: 1000px;
+    top: 200px;
+    left: 886px;
     
 }
 .dier3{
     position: absolute;
     width: 20%;
-    height: 400px;
-    border: 2px solid blue;
-    border-color: #d3d3d3;
+    height: 350px;
+    border: 2px solid;
+    border-color: #5457A6;
     list-style-type: square;
-    top: 600px;
+    top: 552px;
     left: 500px;
     
 }
 .dier4{
     position: absolute;
     width: 20%;
-    height: 400px;
-    border: 2px solid blue;
-    border-color: #d3d3d3;
+    height: 350px;
+    border: 2px solid;
+    border-color: #5457A6;
     list-style-type: square;
-    top: 600px;
-    left: 1000px;
+    top: 552px;
+    left: 1272px;
     
 }
 .image{
@@ -227,15 +227,31 @@ menu
     height: 200px;
     margin: auto;
     display: block;
+    border-radius: 30px;
 }
 
 .content{
     width: 100vw;
     height: 100vh;
 }
-.lista{
-    margin: 0;
-    padding: 0;
-    list-style: none;
+.list{
+    list-style: square;
     text-align: center;
+    margin-top: 25px;
+    margin-left: 25px;
+    color: #5457A6;
+    font-weight: bolder;
+    font-size: 18px;
+}
+.adoptiebutton{
+    width: 200px;
+    height: 30px;
+    border: 1px solid #5457A6;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    background-color: #5457A6;
+    COLOR: #EEBB55;
+    font-size: 16px;
+    font-weight: bold;
 }
