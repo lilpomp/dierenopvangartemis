@@ -82,6 +82,7 @@ menu
 #newsH1
 {
     color: rgb(00, 00, 00);
+    text-shadow: 1px 1px black;
     font-weight: bold; 
     text-align: left; 
     font-size: 60px; 
@@ -96,9 +97,13 @@ menu
 }
 
 
+#block1, #block2, #block3, #block4, #block5, #block6, #block7, #block8
+{
+    background-color: #5457A6;
+}
+
 #block1
 {
-    background-color: red;
     position: absolute;
     width: 15%;
     height: 15%;
@@ -108,7 +113,6 @@ menu
 
 #block2
 {
-    background-color: red;
     position: absolute;
     width: 15%;
     height: 15%;
@@ -118,7 +122,6 @@ menu
 
 #block3
 {
-    background-color: red;
     position: absolute;
     width: 15%;
     height: 15%;
@@ -128,7 +131,6 @@ menu
 
 #block4
 {
-    background-color: red;
     position: absolute;
     width: 15%;
     height: 15%;
@@ -136,11 +138,8 @@ menu
     top: 30%;
 }
 
-
-
 #block5
 {
-    background-color: red;
     position: absolute;
     width: 15%;
     height: 15%;
@@ -150,7 +149,6 @@ menu
 
 #block6
 {
-    background-color: red;
     position: absolute;
     width: 15%;
     height: 15%;
@@ -160,7 +158,6 @@ menu
 
 #block7
 {
-    background-color: red;
     position: absolute;
     width: 15%;
     height: 15%;
@@ -170,7 +167,6 @@ menu
 
 #block8
 {
-    background-color: red;
     position: absolute;
     width: 15%;
     height: 15%;
