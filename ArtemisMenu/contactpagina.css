@@ -1,0 +1,47 @@
+form {
+    position: absolute;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    top: 100%;
+    width: 100%;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 30px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+label {
+    position: absolute;
+    left: 1.5vw;
+}
+
+#nieuwsbrief {
+    margin-top: 25vh;
+}
+
+.under {
+    margin-top: 9.3vh;
+}
+
+#cbox {
+    top: 80%;
+    left:-38vw;
+    position: absolute;
+    
+}
+
+#sbtn {
+    margin-top: 8vh;   
+}
+
+#contactinfo {
+    top: 40vh;
+}
