@@ -175,3 +175,16 @@ menu
     color: greenyellow;
     font-weight: bold;
 }
+/* Verwijderd de tekst onder de nieuws berichten na 650pixels */
+@media only screen and (max-width: 650px) {
+    .newsPAR {
+      display: none;
+    }
+  }
+
+/* Titel van media berichten worden geresized naar 17pixels zodra hij voorbij 384px width is. */
+  @media only screen and (max-width: 384px) {
+    .newstitel {
+      font-size: 17px;
+    }
+  }
