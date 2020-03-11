@@ -3,8 +3,10 @@
 {
     margin: 0px;
     padding: 0px;
+    font-family: "Raleway", sans-serif;
 }
-body{
+body
+{
     background-color: white;
     width: 99vw;
     overflow-x: hidden;
@@ -81,8 +83,7 @@ menu
 
 #newsH1
 {
-    color: rgb(00, 00, 00);
-    text-shadow: 1px 1px black;
+    color: rgb(255, 255, 255);
     font-weight: bold; 
     text-align: left; 
     font-size: 60px; 
@@ -100,76 +101,55 @@ menu
 #block1, #block2, #block3, #block4, #block5, #block6, #block7, #block8
 {
     background-color: #5457A6;
+    position: absolute;
+    width: 15%;
+    height: 15%;
 }
 
 #block1
 {
-    position: absolute;
-    width: 15%;
-    height: 15%;
     left: 10%;
     top: 30%;
 }
 
 #block2
 {
-    position: absolute;
-    width: 15%;
-    height: 15%;
     right: 10%;
     top: 30%;
 }
 
 #block3
 {
-    position: absolute;
-    width: 15%;
-    height: 15%;
     right: 30%;
     top: 30%;
 }
 
 #block4
 {
-    position: absolute;
-    width: 15%;
-    height: 15%;
     left: 30%;
     top: 30%;
 }
 
 #block5
 {
-    position: absolute;
-    width: 15%;
-    height: 15%;
     left: 10%;
     top: 50%;
 }
 
 #block6
 {
-    position: absolute;
-    width: 15%;
-    height: 15%;
     right: 10%;
     top: 50%;
 }
 
 #block7
 {
-    position: absolute;
-    width: 15%;
-    height: 15%;
     right: 30%;
     top: 50%;
 }
 
 #block8
 {
-    position: absolute;
-    width: 15%;
-    height: 15%;
     left: 30%;
     top: 50%;
 }
@@ -184,6 +164,13 @@ menu
 {
     width: 100%;
     height: 70%;
+}
+
+.newsPAR
+{
+    color: ;
+    font-weight: bold; 
+    font-style: italic;
 }
 
 .onSite
