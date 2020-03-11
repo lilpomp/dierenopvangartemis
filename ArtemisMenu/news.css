@@ -175,11 +175,3 @@ menu
     color: greenyellow;
     font-weight: bold;
 }
-
-footer
-{
-    background-color: purple;
-    position: absolute;
-    width: 100vw;
-    height: 100px;
-}
