@@ -76,9 +76,6 @@ menu
     width: 100%;
 }
 
-
-
-
 /* !!!!!!! CODE VOOR NEWS PAGINA HIERBOVEN IS ALLE DEFAULT CODE VOOR DE ALGEMENE STYLING VAN DE PAGINA */ 
 
 #newsH1
@@ -168,7 +165,7 @@ menu
 
 .newsPAR
 {
-    color: ;
+    color: black;
     font-weight: bold; 
     font-style: italic;
 }
