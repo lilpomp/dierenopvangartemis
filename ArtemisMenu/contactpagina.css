@@ -4,44 +4,45 @@ form {
     background-color: #f2f2f2;
     padding: 20px;
     top: 100%;
-    width: 100%;
+    width: 90%;
+    left: 3vw;
 }
 
 input, select, textarea {
-    width: 100%;
+    width: 97%;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-    margin-top: 30px;
-    margin-bottom: 16px;
+    margin-bottom: 3vh;
     resize: vertical;
+    margin-left: 1.5vw;
   }
 
-label {
-    position: absolute;
-    left: 1.5vw;
-}
+  label {
+      margin-left: +1vw;
+  }
 
-#nieuwsbrief {
-    margin-top: 25vh;
-}
+  #cbox {
+      position: relative;
+      left: -42.5vw;
+      top: 1vh;
+  }
 
-.under {
-    margin-top: 9.3vh;
-}
+  #contactinfo {
+      position: absolute;
+      top: 90vh;
+      left: 1.5vw;
+  }
 
-#cbox {
-    top: 80%;
-    left:-38vw;
-    position: absolute;
-    
-}
+  #nieuwsbrief {
+      position: absolute;
+      left: 1vw;
+      top: 48vh;
+  }
 
-#sbtn {
-    margin-top: 8vh;   
-}
-
-#contactinfo {
-    top: 40vh;
-}
+  #sbtn:hover {
+    background-color: rgb(99, 102, 175);
+    color: white;
+    cursor: pointer;
+  }

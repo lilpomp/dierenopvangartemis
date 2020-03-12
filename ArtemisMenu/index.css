@@ -35,9 +35,9 @@ ul
     font-weight: bold;
     letter-spacing: 0.2vw;
     font-size: 1.5vw;
-    padding-right: 20vw;
+    padding-right: 10vw;
     padding-top: 4.5vh;
-    padding-left: 7vw;
+    padding-left: 10vw;
     width: 30%;
 }
 
@@ -201,7 +201,7 @@ menu
     display: none;
 }
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1183px) {
     ul {
         display: none;
     }
@@ -253,6 +253,13 @@ menu
       
       .dropdown:hover .dropbtn {
         background-color: rgb(99, 102, 175);
+      }
+      menu, .logo img {
+          max-height: 14vh;
+      }
+
+      .logo img {
+          max-width: 20vw;
       }
   }
 
