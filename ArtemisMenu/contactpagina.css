@@ -35,12 +35,6 @@ input, select, textarea {
       left: 1.5vw;
   }
 
-  #nieuwsbrief {
-      position: absolute;
-      left: 1vw;
-      top: 48vh;
-  }
-
   #sbtn:hover {
     background-color: rgb(99, 102, 175);
     color: white;
