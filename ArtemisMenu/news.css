@@ -75,18 +75,73 @@ menu
     height: 12vh;
     width: 100%;
 }
+.dropdown
+{
+    display: none;
+}
+@media only screen and (max-width: 1183px) {
+    ul {
+        display: none;
+    }
+    .dropdown {
+        display: show;
+    }
+    .dropbtn {
+        background-color: #5457A6;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+      }
+      
+      .dropdown {
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        top: -2vh;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 100%;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        text-align: center;
+      }
+      
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      
+      .dropdown-content a:hover {
+          background-color: #f1f1f1;
+          font-weight: bold;
+        }
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      
+      .dropdown:hover .dropbtn {
+        background-color: rgb(99, 102, 175);
+      }
+      menu, .logo img {
+          max-height: 14vh;
+      }
+
+      .logo img {
+          max-width: 20vw;
+      }
+  }
 
 /* !!!!!!! CODE VOOR NEWS PAGINA HIERBOVEN IS ALLE DEFAULT CODE VOOR DE ALGEMENE STYLING VAN DE PAGINA */ 
-
-#newsH1
-{
-    color: rgb(255, 255, 255);
-    font-weight: bold; 
-    text-align: left; 
-    font-size: 60px; 
-    font-style: sans-serif; 
-    background-color: rgb(90, 34, 180, 0.3);
-}
 
 #content
 {
@@ -175,6 +230,7 @@ menu
     color: greenyellow;
     font-weight: bold;
 }
+
 /* Verwijderd de tekst onder de nieuws berichten na 650pixels */
 @media only screen and (max-width: 650px) {
     .newsPAR {
