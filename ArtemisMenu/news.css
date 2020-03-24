@@ -244,3 +244,31 @@ menu
       font-size: 17px;
     }
   }
+
+  @media only screen and (max-height: 600px) {
+    .newsPAR {
+      font-size: 20px;
+      letter-spacing: 2px; 
+    }
+
+    #block5, #block6, #block7, #block8
+    {
+        top: 70%;
+    }
+    .newstitel
+    {
+        font-size: 20px;
+        height: 50%;
+    }
+
+  }
+
+  @media only screen and (max-height: 407px) {
+    .newstitel {
+        position: absolute; 
+      bottom: 30%;
+    }
+    .newsPAR{
+       top: 60%; 
+    }
+}
