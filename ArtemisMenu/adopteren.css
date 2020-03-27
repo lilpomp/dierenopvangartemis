@@ -548,3 +548,33 @@ a{
     }
 
   }
+  @media only screen and (max-width: 1008px) {
+    .adoptiebutton{
+        width: 150px;
+        height: 30px;
+        border: 1px solid #5457A6;
+        display: block;
+        margin: auto;
+        margin-top: 30px;
+        background-color: #5457A6;
+        color: #EEBB55;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+  }
+  @media only screen and (max-width: 760px) {
+    .adoptiebutton{
+        width: 100px;
+        height: 30px;
+        border: 1px solid #5457A6;
+        display: block;
+        margin: auto;
+        margin-top: 30px;
+        background-color: #5457A6;
+        color: #EEBB55;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+  }
